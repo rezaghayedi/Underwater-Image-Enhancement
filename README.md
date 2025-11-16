@@ -36,7 +36,7 @@ To objectively prove the model's effectiveness, the enhanced images **were evalu
 The **SE-Water-Net** achieves excellent scores, demonstrating a high-fidelity restoration of the original image quality, as summarized in the results below.
 
 <p align="center">
-  <img src="images/metrics.png" alt="Model Performance Metrics (PSNR, SSIM)" width="600">
+  <img src="images/metrics.png" alt="Model Performance Metrics (PSNR, SSIM)" width="350">
 </p>
 
 ---
