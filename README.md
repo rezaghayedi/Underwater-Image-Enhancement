@@ -105,4 +105,3 @@ However, for those who wish to have the files directly:
 
 * **Reza Ghayedi**
 * **LinkedIn:** www.linkedin.com/in/rezaghayedi
-* **GitHub:** rezaghayedi
