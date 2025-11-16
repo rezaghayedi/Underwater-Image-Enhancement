@@ -92,8 +92,13 @@ To run this project:
 However, for those who wish to have the files directly:
 
 * **Trained SE-Water-Net Model:** [Google Drive Link](https://drive.google.com/file/d/1DiT9wS7kbYPpbSbxYVqUIM87FALwFOMp/view?usp=sharing)
-* **UIEB Dataset:** [Google Drive Link](https://drive.google.com/file/d/1adx6d7BNMc7KqHA5hLaInRkiZiYDGoZO/view?usp=sharing)
 
+* **Pre-processed UIEB Dataset (Zipped):** [Google Drive Link](https://drive.google.com/file/d/1adx6d7BNMc7KqHA5hLaInRkiZiYDGoZO/view?usp=sharing)
+    * **Note on this file:** This is a custom `.zip` archive. It was created by combining the original "Raw" and "Reference" datasets (see below), and then splitting the combined data into `train` and `validation` sets.
+
+* **Original UIEB Raw Dataset (Kaggle):** [Kaggle Link](https://www.kaggle.com/datasets/larjeck/uieb-dataset-raw)
+
+* **Original UIEB Reference Dataset (Kaggle):** [Kaggle Link](https://www.kaggle.com/datasets/larjeck/uieb-dataset-reference)
 ---
 
 ## 👤 Author
