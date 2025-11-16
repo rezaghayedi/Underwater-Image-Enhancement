@@ -85,7 +85,8 @@ To run this project on your local machine, follow these steps:
 1.  **Clone the repository:**
     ```bash
     git clone https://github.com/rezaghayedi/Underwater-Image-Enhancement.git
-    cd [Your-Project-Folder-Name]
+    cd Underwater-Image-Enhancement
+    
     ```
 2.  **Install the required dependencies:**
     All dependencies are listed in the `requirements.txt` file. Install them using pip:
