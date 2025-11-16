@@ -83,6 +83,52 @@ The model was trained and evaluated on the **UIEB (Underwater Image Enhancement 
 To run this project:
 * Open the main notebook (in the `src/` folder) and run the cells.
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+حتماً. این بخش خیلی مهمی است. نسخه قبلی شما ناقص بود چون مهم‌ترین قدم، یعنی **نصب نیازمندی‌ها**، در آن نبود.
+
+````
+این هم نسخه اصلاح‌شده و حرفه‌ای برای بخش `## 🏃 Getting Started` (به زبان انگلیسی، مطابق با بقیه `README` شما):
+
+---
+
+### کد جدید (این را جایگزین بخش قبلی کنید):
+
+```markdown
+## 🏃 Getting Started
+
+To run this project on your local machine, follow these steps:
+
+1.  **Clone the repository:**
+    ```bash
+    git clone [Your GitHub Repository URL]
+    cd [Your-Project-Folder-Name]
+    ```
+2.  **Install the required dependencies:**
+    All dependencies are listed in the `requirements.txt` file. Install them using pip:
+    ```bash
+    pip install -r requirements.txt
+    ```
+3.  **Run the notebook:**
+    Now, you can open the main notebook (located in the `src/` folder) and run all the cells.
+
+
+
+
 ---
 
 ## 💾 Models & Dataset
