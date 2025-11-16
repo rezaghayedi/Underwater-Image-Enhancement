@@ -7,7 +7,7 @@
 
 ## 🌟 Key Results: Visual Comparison
 
-Our model significantly corrects color cast (the dominant blue/green tint) and improves the contrast and visibility of underwater images. Below, you can see visual comparisons demonstrating the effectiveness of our **SE-Water-Net** against ground truth references.
+The model significantly corrects color cast (the dominant blue/green tint) and improves the contrast and visibility of underwater images. Below are visual comparisons demonstrating the effectiveness of the **SE-Water-Net** against ground truth references.
 
 <table align="center">
  <tr>
@@ -24,30 +24,20 @@ Our model significantly corrects color cast (the dominant blue/green tint) and i
  </tr>
 </table>
 
-
-
-
-
-
-
-
-
 ---
 
 ## 📊 Quantitative Results (Evaluation)
-To objectively prove the model's effectiveness, we evaluated the enhanced images against the ground truth references using two key industry-standard metrics:
+
+To objectively prove the model's effectiveness, the enhanced images **were evaluated** against the ground truth references using two key industry-standard metrics:
 
 * **PSNR (Peak Signal-to-Noise Ratio):** Measures the ratio between the maximum possible power of a signal and the power of corrupting noise. **Higher is better.**
-* **SSIM (Structural Similarity Index):** Measures the similarity between two images (our output vs. the reference). It focuses on changes in structure, luminance, and contrast. **A value closer to 1 is better.**
+* **SSIM (Structural Similarity Index):** Measures the similarity between two images (**the model's output** vs. the reference). It focuses on changes in structure, luminance, and contrast. **A value closer to 1 is better.**
 
-Our SE-Water-Net achieves excellent scores, demonstrating a high-fidelity restoration of the original image quality, as summarized in the results below.
+The **SE-Water-Net** achieves excellent scores, demonstrating a high-fidelity restoration of the original image quality, as summarized in the results below.
 
 <p align="center">
-  <img src="images/metrics.png" alt="Model Performance Metrics (PSNR, SSIM)" width="400">
+  <img src="images/metrics.png" alt="Model Performance Metrics (PSNR, SSIM)" width="600">
 </p>
-
-
-
 
 ---
 
@@ -60,9 +50,9 @@ Underwater images suffer from severe quality degradation due to light absorption
 
 ---
 
-## 💡 Our Solution: SE-Water-Net
+## 💡 Solution Architecture: SE-Water-Net
 
-This project uses an improved version of **Water-Net**, a well-known architecture for this task. We enhanced this architecture by integrating **Squeeze-and-Excitation (SE) Blocks**.
+This project uses an improved version of **Water-Net**, a well-known architecture for this task. This architecture **was enhanced** by integrating **Squeeze-and-Excitation (SE) Blocks**.
 
 **Why SE Blocks?**
 SE blocks allow the network to perform **dynamic feature recalibration**. In simple terms, they help the model "learn" which visual features (like edges, textures, or color channels) are more important and "excite" them, while "squeezing" or suppressing less relevant features. This leads to a more accurate and visually pleasing restoration.
@@ -90,7 +80,7 @@ The model was trained and evaluated on the **UIEB (Underwater Image Enhancement 
 
 ## 🏃 Getting Started
 
-To run this project on your own:
+To run this project:
 * Open the main notebook (in the `src/` folder) and run the cells.
 
 ---
