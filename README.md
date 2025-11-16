@@ -14,13 +14,13 @@ Our model significantly corrects color cast (the dominant blue/green tint) and i
     <td align="center"><b>Input - Enhanced - Reference</b></td>
  </tr>
  <tr>
-    <td><img src="images/comparison_example_1.png" alt="Visual comparison 1: Input, Enhanced, Reference" width="800"></td>
+    <td><img src="images/result1.png" alt="Visual comparison 1: Input, Enhanced, Reference" width="800"></td>
  </tr>
  <tr>
-    <td><img src="images/comparison_example_2.png" alt="Visual comparison 2: Input, Enhanced, Reference" width="800"></td>
+    <td><img src="images/result4.png" alt="Visual comparison 2: Input, Enhanced, Reference" width="800"></td>
  </tr>
  <tr>
-    <td><img src="images/comparison_example_3.png" alt="Visual comparison 3: Input, Enhanced, Reference" width="800"></td>
+    <td><img src="images/result5.png" alt="Visual comparison 3: Input, Enhanced, Reference" width="800"></td>
  </tr>
 </table>
 
@@ -43,7 +43,7 @@ To objectively prove the model's effectiveness, we evaluated the enhanced images
 Our SE-Water-Net achieves excellent scores, demonstrating a high-fidelity restoration of the original image quality, as summarized in the results below.
 
 <p align="center">
-  <img src="images/YOUR-ALL-METRICS-IMAGE.png" alt="Model Performance Metrics (PSNR, SSIM)" width="800">
+  <img src="images/metrics.png" alt="Model Performance Metrics (PSNR, SSIM)" width="800">
 </p>
 
 
@@ -91,7 +91,7 @@ The model was trained and evaluated on the **UIEB (Underwater Image Enhancement 
 ## 🏃 Getting Started
 
 To run this project on your own:
-* Open the main notebook (e.g., in the `src/` or `notebooks/` folder) and run the cells.
+* Open the main notebook (in the `src/` folder) and run the cells.
 
 ---
 
